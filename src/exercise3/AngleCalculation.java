@@ -16,8 +16,8 @@ public class AngleCalculation {
       number = input.nextDouble();
       type = input.next().charAt(0);
      
-      if(number == 'd') {
-        grad = (number * 180) / Math.PI;
+      if(type == 'd') {
+        grad = number;
         System.out.println("Angle" + grad);
         
         
