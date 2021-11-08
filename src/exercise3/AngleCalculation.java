@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class AngleCalculation {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Input: ");
+    
     double number;
     double grad;
     double radian;
